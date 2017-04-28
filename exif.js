@@ -928,8 +928,8 @@
     }
 
     EXIF.getData = function(img, callback) {
-        if ((self.Image && img instanceof self.Image)
-            || (self.HTMLImageElement && img instanceof self.HTMLImageElement)
+        if (((self.Image && img instanceof self.Image)
+            || (self.HTMLImageElement && img instanceof self.HTMLImageElement))
             && !img.complete)
             return false;
 
@@ -947,7 +947,7 @@
         if (!imageHasData(img)) return;
         return img.exifdata[tag];
     }
-    
+
     EXIF.getIptcTag = function(img, tag) {
         if (!imageHasData(img)) return;
         return img.iptcdata[tag];
@@ -965,7 +965,7 @@
         }
         return tags;
     }
-    
+
     EXIF.getAllIptcTags = function(img) {
         if (!imageHasData(img)) return {};
         var a,
@@ -1010,4 +1010,3 @@
         });
     }
 }.call(this));
-

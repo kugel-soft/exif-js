@@ -1,5 +1,5 @@
 {
-  "name": "exif-js",
+  "name": "exif-js-kugel",
   "version": "2.2.1",
   "description": "JavaScript library for reading EXIF image metadata",
   "main": "exif.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exif-js/exif-js"
+    "url": "https://github.com/kugel-soft/exif-js-kugel"
   },
   "keywords": [
     "exif"
@@ -19,9 +19,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exif-js/exif-js/issues"
+    "url": "https://github.com/kugel-soft/exif-js-kugel/issues"
   },
-  "homepage": "https://github.com/exif-js/exif-js",
+  "homepage": "https://github.com/kugel-soft/exif-js-kugel",
   "ignore": [
     "**/.*",
     "node_modules",

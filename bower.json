@@ -1,7 +1,7 @@
 {
-  "name": "exif-js",
-  "version": "2.2.1",
-  "homepage": "https://github.com/exif-js/exif-js",
+  "name": "exif-js-kugel",
+  "version": "2.2.2",
+  "homepage": "https://github.com/kugel-soft/exif-js-kugel",
   "authors": [
     "Jacob Seidelin"
   ],
